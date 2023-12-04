@@ -1,0 +1,42 @@
+body {
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-image: url(./noite.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+bod {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-image: url(../images/tarde.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(7, 11, 73);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
